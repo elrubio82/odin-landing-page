@@ -9,10 +9,24 @@ html {
 }
 
 * {
-    /* Use the following to see the box model */
+    /* Use the following to see the box model 
     outline: 2px solid red;
+    */
     margin: 0;
     padding: 0;
+}
+
+.body {
+    font-family: Georgia, Garamond, serif;
+}
+
+div,
+a,
+h1,
+p,
+button,
+blockquote {
+    font-family: Georgia, Garamond, serif;
 }
 
 .top {
@@ -64,10 +78,11 @@ html {
     flex: 1;
 }
 
-.hero-button {
+.hero-button,
+.cta-button {
     background-color: #3882f6;
     color: #F9FAF8;
-
+    border: 2px solid white;
     min-width: 100px;
     max-width: 250px;
     overflow: hidden;
@@ -76,7 +91,6 @@ html {
     padding: 0.35rem 1rem;
     border-radius: 100px;
     text-align: center;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-info {
@@ -157,4 +171,48 @@ figcaption {
     color: #1F2937;
     display: flex;
     justify-content: flex-end;
+}
+
+.bottom {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+}
+
+.cta-container {
+    flex: 2;
+    padding: 2.5% 10%;
+}
+
+.cta-button-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-title,
+.cta-subtitle {
+    font-size: 18px;
+    color: white;
+    flex: 1;
+}
+
+.cta-title {}
+
+.footer {
+    font-size: 18px;
+    color: #E5e7eb;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
