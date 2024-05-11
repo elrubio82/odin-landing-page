@@ -210,9 +210,13 @@ figcaption {
     font-size: 18px;
     color: #E5e7eb;
     background-color: #1F2937;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
+}
 
+.footer .images-credit a {
+    font-size: 18px;
+    text-decoration: none;
+    color: red;
 }
