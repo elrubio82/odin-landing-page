@@ -101,6 +101,7 @@ html {
 .teaser {
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 5%;
 }
 
 .title {
@@ -132,4 +133,28 @@ html {
 
 .text {
     font-size: 18px;
+}
+
+.quote {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #E5e7eb;
+}
+
+.quote figure {
+    padding: 10%
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
