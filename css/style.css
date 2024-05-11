@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    /* Use the following to see the box model */
+    outline: 2px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.header {
+    display: flex;
+    gap: 1em;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.link a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5e7eb;
+}
+
+.link-one {
+    margin-left: auto;
+}
+
+.hero {
+    display: flex;
+    padding-top: 3em;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5e7eb;
+    flex: 1;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+
+    min-width: 100px;
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0.35rem 1rem;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-info,
+.hero-image {
+    flex: 1;
+}
+
+.hero-image {
+    display: flex;
+}
+
+.hero-image img {
+    flex: 1;
+    max-width: 100%;
+}
+
+.teaser {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.info {
+    flex: 1;
+}
+
+.info img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 18px;
+}
