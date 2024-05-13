@@ -108,8 +108,9 @@ blockquote {
 }
 
 .hero-image img {
-    flex: 1;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .teaser {
@@ -143,6 +144,7 @@ blockquote {
 .info img {
     max-width: 100%;
     border-radius: 10px;
+    border: solid 3px #3882F6;
 }
 
 .text {
