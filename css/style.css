@@ -14,18 +14,6 @@ html {
     */
     margin: 0;
     padding: 0;
-}
-
-.body {
-    font-family: Georgia, Garamond, serif;
-}
-
-div,
-a,
-h1,
-p,
-button,
-blockquote {
     font-family: Georgia, Garamond, serif;
 }
 
